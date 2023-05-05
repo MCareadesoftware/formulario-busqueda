@@ -1,0 +1,10 @@
+Estamos creando un generador de pdfs en la ruta https://institutotutor.com/buscar-certificado/
+
+En la tabla wpwt_fluentform_submissions se obtiene el id del usuario con un input de dni
+Con ese id del usuario se busca en la tabla wpwt_stm_lms_user_quizzes para obtener el id del curso
+Con ese id del curso y id del estudiante faltaria obtener los datos del curso y del estudiante para poner en el pdf
+La libreria para generar el pdf es dompdf
+ahi te dejo un ejemplo en pdfonlyhc.php
+Tenemos que poner esta imagen de fondo y los datos encima
+
+Solo funciona en produccion en public_html/buscar-certificado
